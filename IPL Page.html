@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///C:/Users/rajgo/Downloads/Web%20Dev%20Project/Source.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+</head><body><div style="float:left border-radius:50%">
+ <span><a href="https://www.iplt20.com/"><img src="./IPL Page_files/ipl.jpg" style="border-radius:50%" height="100rem"></a></span>
+ <span><a href="https://www.mumbaiindians.com/"><img src="./IPL Page_files/MI logo.png" height="100rem"></a></span>
+ <span><a href="https://www.chennaisuperkings.com/"><img src="./IPL Page_files/csk logo.png" height="100rem"></a></span>
+ <span><a href="https://www.royalchallengers.com/"><img src="./IPL Page_files/rcb logo.png" height="100rem"></a></span>
+ <span><a href="https://www.kkr.in/"><img src="./IPL Page_files/kkr logo.png" height="100rem"></a></span>
+ <span><a href="https://www.rajasthanroyals.com/"><img src="./IPL Page_files/rr logo.png" height="100rem"></a></span>
+ <span><a href="https://www.punjabkingsipl.in/"><img src="./IPL Page_files/kxip logo.png" height="100rem"></a></span>
+ <span><a href="https://www.sunrisershyderabad.in/"><img src="./IPL Page_files/srh logo.png" height="100rem"></a></span>
+ <span><a href="https://www.delhicapitals.in/"><img src="./IPL Page_files/dc logo.png" height="100rem"></a></span>
+ <span><a href="https://www.gujarattitansipl.com/"><img src="./IPL Page_files/gt logo.png" height="100rem"></a></span>
+ <span><a href="https://www.lucknowsupergiants.in/"><img src="./IPL Page_files/lsg logo.png" height="100rem"></a></span>
+
+</div>
+
+<title>IPL</title>
+<link rel="icon" type="image/x-icon"><img src="./IPL Page_files/favicon.ico">
+
+<center><h1><font size="150px" color="skyblue">IPL</font></h1><font size="150px" color="skyblue"><center-align></center-align></font></center>
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+</style>
+
+
+
+<style>
+
+body{
+  background-image: url('https://static.wikia.nocookie.net/logopedia/images/c/cd/IPL2023intro.jpg/revision/latest?cb=20230707113623');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  //background-color: #abcd0f;
+  background-size: cover;
+ background-position: center;
+ color: white;
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+}
+
+tr:nth-child(even) {
+  background-color: black;
+  color: white;
+}
+tr:nth-child(odd) {
+ // background-color: black;
+  color: lightblue;
+}
+th:nth-child(odd) {
+  //background-color: black;
+  color: red;
+}
+th:nth-child(even) {
+  //background-color: black;
+  color: red;
+}
+
+
+.box3{
+	display: flex;
+	flex-wrap: wrap; 
+}
+
+.box8{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.footer{
+            text-align: center;
+            margin: 20px 0;
+        }
+
+.tables{
+        display: flex;
+	flex-wrap: wrap;
+        justify-content: space-around;
+	margin-top: 20px;
+}
+
+
+* {box-sizing:border-box}
+
+#box0 {
+  height: 75%;
+  width: 100%;
+  border: 4px double blue;
+  border-style: dot-dash;
+  border-right-color: magenta;
+  border-bottom-color: magenta;
+  max-width: 880px;
+  position: relative;
+  margin: auto;
+  border-fit: stretch;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* .loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(180deg); }
+  100% { transform: rotate(360deg); }
+}
+*/
+
+.container{
+  color: red;
+  font-size: 1.2rem; 
+}
+
+.footer {
+            text-align: center;
+            margin: 20px 0;
+}
+
+.box7{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+}
+
+#click{
+ color: blue;
+ margin: 0px;
+ padding: 6px;
+ }
+
+#IPLTeam{
+ margin-left: 100px;
+}
+
+/* #box0{
+ height: 80%;
+ width: 100%;
+ //border: 2px dashed blue;
+ } */
+
+
+</style>
+
+
+
+
+ 
+<div id="box0">
+
+  <div class="mySlides fade" style="display: block;">
+    <div class="numbertext">1 / 4</div>
+    <img src="./IPL Page_files/IPL captains1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade" style="display: none;">
+    <div class="numbertext">2 / 4</div>
+    <img src="./IPL Page_files/ipl captains4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade" style="display: none;">
+    <div class="numbertext">3 / 4</div>
+    <img src="./IPL Page_files/ipl captains2.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade" style="display: none;">
+    <div class="numbertext">4 / 4</div>
+    <img src="./IPL Page_files/ipl captains3.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot active" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+
+
+<hr color="black">
+
+<div class="container">
+<marquee direction="left" behaviour="scroll" scroll-delay="10" scroll-amount="7"><i>Copyright Disclaimer under Section 107 of the copyright act 1976, allowance is made for fair use for purposes such as criticism, comment, news reporting, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringin.</i></marquee></div>
+
+<hr color="black">
+
+ <h1>About</h1>
+ <div id="box1" class="box1">
+  <p>The <b>Indian Premier League (IPL)</b>, also known as the TATA IPL for sponsorship reasons, is a men's T20 cricket league held annually in India. Founded by the BCCI in 2007, the league features ten city-based franchise teams. The IPL usually takes place during the summer, between March and May each year. It has an exclusive window in the ICC Future Tours Programme, resulting in fewer international cricket tours occurring during the IPL seasons.</p>
+ </div>
+
+ <div id="box1" class="box2">
+  <p>The IPL is the most popular cricket league in the world; in 2014, it ranked sixth in average attendance among all sports leagues. In 2010, the IPL became the first sporting event to be broadcast live on YouTube. Inspired by the success of the IPL, other Indian sports leagues have been established. In 2022, the league's brand value was estimated at ₹90,038 crore (US$11 billion). According to the BCCI, the 2015 IPL season contributed ₹1,150 crore (US$140 million) to India's GDP. In December 2022, the IPL achieved a valuation of US$10.9 billion, becoming a decacorn and registering a 75% growth in dollar terms since 2020 when it was valued at $6.2 billion, according to a report by the consulting firm D and P Advisory. Its 2023 final became the most streamed live event on the internet, with 32 million viewers.</p>
+</div>
+
+<div class="box10">
+ <h1>History</h1>
+ <h2>Inspired by a rival</h2>
+<p>In 2007, Zee Entertainment Enterprises founded the Indian Cricket League (ICL). The ICL was not recognized by the Board of Control for Cricket in India (BCCI) or the International Cricket Council (ICC). Moreover, the BCCI was unhappy about its committee members joining the ICL executive board. In response, the BCCI increased the prize money for its domestic tournaments and imposed lifetime bans on players who joined the rival league, which it considered a rebel league.
+</p>
+
+<h2>Foundation</h2>
+<p>On 13 September 2007, following India's victory at the 2007 T20 World Cup, the BCCI announced a franchise based Twenty20 cricket competition known as the Indian Premier League. The inaugural season was scheduled to start in April 2008, commencing with a "high-profile ceremony" in New Delhi. BCCI Vice-president Lalit Modi, who led the IPL initiative, provided details of the tournament, including its format, prize money, franchise revenue system, and squad composition rules. The league, to be managed by a seven-man governing council, would also serve as the qualifying mechanism for that year's Champions League Twenty20.
+</p>
+
+<p>To determine team ownership, an auction for the franchises was held on 24 January 2008. The reserve prices for the eight franchises totalled $400 million, but the auction ultimately raised $723.59 million. The league officially commenced in April 2008, featuring Chennai Super Kings (CSK), Mumbai Indians (MI), Delhi Daredevils (DD), Kings XI Punjab (KXIP), Deccan Chargers (DC), Rajasthan Royals (RR), Kolkata Knight Riders (KKR), and Royal Challengers Bangalore (RCB).
+</p>
+
+Following the ban on players who chose to participate in the ICL, the rival league shut down in 2009.
+
+<div>
+<h1>Governing Council</h1>
+</div>
+<div class="box3">
+
+<p> <img src="./IPL Page_files/BCCI Governing Council.avif" height="200px" width="300px"> </p>
+<p style="float:left"><br>
+  The following are the members of the IPL GC:<br><br>
+
+  1. Mr. Arun Singh Dhumal, Chairman<br>
+  2. Mr. Jay Shah, Honorary Secretary, BCCI, Member<br>
+  3. Mr. Ashish Shelar, Honorary Treasurer, BCCI, Member<br>
+  4. Mr. Avishek Dalmiya, Member<br>
+  5. Mr. Vankina Chamundeswara Nath, Member (ICA representative)<br>
+  6. Mr. CM Sane, CAG Nominee, Member<br>
+</p>
+</div>
+
+
+<div class="box4">
+ <p></p><h1>Unique Rules and Variations</h1><img src="./IPL Page_files/ipl.jpg" style="border-radius:50%" height="110px" width="105px">
+The IPL has several rules which vary from the established Laws of cricket or those used in other Twenty20 leagues:
+<ul>
+<li>IPL games incorporate television timeouts. Each team is given a two-and-a-half-minute "strategic time-out" during each innings. One must be taken by the bowling team between the seventh and ninth overs and the other by the batting team between the 14th and 16th overs. A penalty may be imposed if umpires find teams misusing this privilege.</li>
+<li>Since the 2018 season, the Decision Review System (DRS) has been used in all IPL matches, allowing each team two opportunities each innings to review an on-field umpire's decision. From the 2023 season, this was extended to allow the review of wides and no-balls.</li>
+<li>If the bowling team does not complete its overs in the allocated time, it may place only four fielders outside of the fielding restrictions circle for the remainder of the innings, or the match referee may impose financial sanctions on the bowling team after the match, with players fined a proportion of their match fee.</li>
+<li>Teams can use a substitute, termed an "impact player", from a list of five players named as possible substitutes. The substitution can be made before the start of the innings, when a wicket falls when a batter retires or at the end of an over. Both teams can introduce a substitute once per match.</li>
+<li>Teams can declare their playing eleven to the match referee before or after the toss.</li>
+<li>A five-run penalty is imposed if a fielder or wicket-keeper makes an unfair movement while the bowler is bowling and the ball is designated as dead ball.
+Teams can include four overseas players in their playing eleven.</li>
+<li>Teams must include 25 players, with a maximum of eight overseas players.</li>
+<li>From the 2024 season, bowlers will be allowed to deliver two bouncers an over. This change in playing conditions was trialled during the 2023–24 Syed Mushtaq Ali Trophy, India's domestic T20 tournament.</li>
+</ul>
+<p></p>
+</div>
+
+<div class="box5">
+ <p></p><h1>Prize money</h1><img src="./IPL Page_files/prize money.jpg" height="100px" width="120px">
+The 2022 season of the IPL offered total prize money of ₹46.5 crore (equivalent to ₹49 crore or US$6.2 million in 2023), with the winning team netting ₹20 crore (equivalent to ₹21 crore or US$2.7 million in 2023) and the second-placed team ₹13 crore (equivalent to ₹14 crore or US$1.7 million in 2023). League rules mandate that half of any prize money must be distributed amongst the franchise's players.
+ <p></p>
+</div>
+
+<div class="box6">
+ <p></p><h1>Awards</h1>
+<h3><u>Orange Cap</u></h3><img src="./IPL Page_files/IPL-Orange-Cap.webp" width="75px" height="50px">
+The Orange Cap, introduced in 2008, is awarded to the highest run-scorer at the end of each season. It is an ongoing competition with the current highest-run scorer wearing the cap whilst fielding. The eventual winner keeps the cap for the season. Brendon McCullum was the first player to wear the Orange Cap and Shaun Marsh the inaugural winner of the award. Australian batsman David Warner has won the award three times, more than any other player. Shubman Gill of Gujarat Titans, who scored 890 runs during the 2023 season, is the most recent winner of the award.
+
+<h3><u>Purple Cap</u></h3><img src="./IPL Page_files/Purple-cap.jpg" width="65px" height="50px" <="" img="">
+The Purple Cap is awarded to the highest wicket-taker at the end of each season. It is an ongoing competition and the bowler who is the leading wicket-taker wears a purple cap whilst fielding. The leading wicket-taker at the end of the season wins the award. Bhuvneshwar Kumar, Dwayne Bravo and Harshal Patel are the only players to have won the award twice.
+
+<h3><u>Most Valuable Player</u></h3>
+The Most Valuable Player award, called the "Man of the Tournament" until the 2012 season, is awarded using a ratings system introduced in 2013. Sunil Narine won the award in 2024.
+
+<h3><u>Fair Play Award</u></h3>
+The Fair Play Award is given after each season to the team considered to have the best fair play record. After each match, the two on-field umpires and the third umpire score the performance of both teams, with the highest-scoring team at the end of the season receiving the award. The 2024 winners were Kolakata Knight Riders.
+
+<h3><u>Emerging Player Award</u></h3>
+The Emerging Player Award was presented to the best under-19 player in 2008 and the best under-23 player in 2009 and 2010. In 2011 and 2012, the award was known as "Rising Star of the Year," and in 2013 the "Best Young Player of the Season." Since 2014, the award has been called the Emerging Player of the Year. Mustafizur Rahman is the only foreign player to win this award. The 2024 winner was Nitish Kumar Reddy.
+
+<h3><u>Maximum Sixes Award</u></h3><img src="./IPL Page_files/six.jpg" width="78px">
+The Maximum Sixes Award is presented to the player who hits the most sixes at the end of the season.
+<p></p>
+</div> 
+
+<div class="tables">
+<div>
+ 
+ <p> </p><h1><font size="25px">Winners</font></h1> <p></p> <p><img src="./IPL Page_files/IPL winners.avif" height="150px" width="210px"> </p>
+<table border="2px solid black" padding="2px">
+  <tbody><tr>
+   <th>Season</th>
+   <th>Winners</th>
+  </tr>
+<tr>
+  <td>2008</td>
+  <td>Rajasthan Royals</td>
+</tr>
+<tr>
+ <td>2009</td>
+ <td>Deccan Chargers</td>
+</tr>
+<tr>
+ <td>2010</td>
+ <td>Chennai Super Kings</td>
+</tr>
+<tr>
+ <td>2011</td>
+ <td>Chennai Super Kings</td>
+</tr>
+<tr>
+ <td>2012</td>
+ <td>Kolkata Knight Riders</td>
+</tr>
+<tr>
+ <td>2013</td>
+ <td>Mumbai Indians</td>
+</tr>
+<tr>
+ <td>2014</td>
+ <td>Kolkata Knight riders</td>
+</tr>
+<tr>
+ <td>2015</td>
+ <td>Mumbai Indians</td>
+</tr>
+<tr>
+ <td>2016</td>
+ <td>Sunrisers Hyderabad</td>
+</tr>
+<tr>
+ <td>2017</td>
+ <td>Mumbai Indians</td>
+</tr>
+<tr>
+ <td>2018</td>
+ <td>Chennai Super Kings</td>
+</tr>
+<tr>
+ <td>2019</td>
+ <td>Mumbai Indians</td>
+</tr>
+<tr>
+ <td>2020</td>
+ <td>Mumbai Indians</td>
+</tr>
+<tr>
+ <td>2021</td>
+ <td>Chennai Super Kings</td>
+</tr>
+<tr>
+ <td>2022</td>
+ <td>Gujrat Titans</td>
+</tr>
+<tr>
+ <td>2023</td>
+ <td>Chennai Super Kings</td>
+</tr>
+<tr>
+ <td>2024</td>
+ <td>Kolkata Knight Riders</td>
+</tr>
+</tbody></table>
+<p></p>
+</div>
+
+
+<div>
+
+  <h3><font size="15px"> Orange Cap<br> Winners</font></h3><img src="./IPL Page_files/IPL-Orange-Cap.webp" height="143px" width="215px" class="img">
+<table border="2px solid black" padding="2px">
+  <tbody><tr>
+   <th>Season</th>
+   <th>Player Name</th>
+   <th>Runs</th>
+  </tr>
+ <tr>
+  <td>2008</td>
+  <td>Shaun Marsh</td>
+  <td>616</td>
+</tr>
+<tr>
+ <td>2009</td>
+ <td>Matthew Hayden</td>
+ <td>572</td>
+</tr>
+<tr>
+ <td>2010</td>
+ <td>Sachin Tendulkar</td>
+ <td>618</td>
+</tr>
+<tr>
+ <td>2011</td>
+ <td>Chris Gayle</td>
+ <td>608</td>
+</tr>
+<tr>
+ <td>2012</td>
+ <td>Chris Gayle</td>
+ <td>733</td>
+</tr>
+<tr>
+ <td>2013</td>
+ <td>Michael Hussey</td>
+ <td>733</td>
+</tr>
+<tr>
+ <td>2014</td>
+ <td>Robin Uthappa</td>
+ <td>660</td>
+</tr>
+<tr>
+ <td>2015</td>
+ <td>David Warner</td>
+ <td>562</td>
+</tr>
+<tr>
+ <td>2016</td>
+ <td>Virat Kohli</td>
+ <td>973</td>
+</tr>
+<tr>
+ <td>2017</td>
+ <td>David Warner</td>
+ <td>641</td>
+</tr>
+<tr>
+ <td>2018</td>
+ <td>Kane Williomson</td>
+ <td>735</td>
+</tr>
+<tr>
+ <td>2019</td>
+ <td>David Warner</td>
+ <td>692</td>
+</tr>
+<tr>
+ <td>2020</td>
+ <td>KL Rahul</td>
+ <td>670</td>
+</tr>
+<tr>
+ <td>2021</td>
+ <td>Ruturaj Gaikwad</td>
+ <td>635</td>
+</tr>
+<tr>
+ <td>2022</td>
+ <td>Jos Buttler</td>
+ <td>863</td>
+</tr>
+<tr>
+ <td>2023</td>
+ <td>Shubhman Gill</td>
+ <td>890</td>
+</tr>
+<tr>
+ <td>2024</td>
+ <td>Virat Kohli</td>
+ <td>741</td>
+</tr></tbody></table>
+</div>
+
+
+
+<div>
+
+  <h3><font size="12px">Purple Cap<br> Winners</font></h3><img src="./IPL Page_files/Purple-cap.jpg" height="150px" width="260px" class="img">
+<table border="2px solid black" padding="2px">
+  <tbody><tr>
+   <th>Season</th>
+   <th>Player Name</th>
+   <th>Wickets</th>
+  </tr>
+ <tr>
+  <td>2008</td>
+  <td>Sohail Tanvir</td>
+  <td>22</td>
+</tr>
+<tr>
+ <td>2009</td>
+ <td>RP Singh</td>
+ <td>23</td>
+</tr>
+<tr>
+ <td>2010</td>
+ <td>Pragyan Ojha</td>
+ <td>21</td>
+</tr>
+<tr>
+ <td>2011</td>
+ <td>Lasith Malinga</td>
+ <td>28</td>
+</tr>
+<tr>
+ <td>2012</td>
+ <td>Morne Morkel</td>
+ <td>25</td>
+</tr>
+<tr>
+ <td>2013</td>
+ <td>Dwayne Bravo</td>
+ <td>32</td>
+</tr>
+<tr>
+ <td>2014</td>
+ <td>Mohit Sharma</td>
+ <td>23</td>
+</tr>
+<tr>
+ <td>2015</td>
+ <td>Dwayne Bravo</td>
+ <td>32</td>
+</tr>
+<tr>
+ <td>2016</td>
+ <td>Bhubneshwar Kumar</td>
+ <td>23</td>
+</tr>
+<tr>
+ <td>2017</td>
+ <td>Bhubneshwar Kumar</td>
+ <td>26</td>
+</tr>
+<tr>
+ <td>2018</td>
+ <td>Andrew Tye</td>
+ <td>24</td>
+</tr>
+<tr>
+ <td>2019</td>
+ <td>Imran Tahir</td>
+ <td>26</td>
+</tr>
+<tr>
+ <td>2020</td>
+ <td>Kagiso Rabada</td>
+ <td>30</td>
+</tr>
+<tr>
+ <td>2021</td>
+ <td>Harshal Patel</td>
+ <td>32</td>
+</tr>
+<tr>
+ <td>2022</td>
+ <td>Yujvendra Chahal</td>
+ <td>27</td>
+</tr>
+<tr>
+ <td>2023</td>
+ <td>Mohammad Shami</td>
+ <td>28</td>
+</tr>
+<tr>
+ <td>2024</td>
+ <td>Harshal Patel</td>
+ <td>24</td>
+</tr></tbody></table>
+</div>
+
+<div>
+<span>
+ <img src="./IPL Page_files/Highest Team Totals.png" height="101%" width="25%" <="" img="">
+</span>
+
+<span>
+ <img src="./IPL Page_files/Emerging Player.png" height="101%" width="25%" <="" img="">
+</span>
+
+<span>
+ <img src="./IPL Page_files/highest individual score.jpg" height="101%" width="24%" <="" img="">
+</span>
+
+<span>
+ <img src="./IPL Page_files/highest run chases.avif" height="101%" width="25%" <="" img="">
+</span>
+
+</div>
+
+</div>
+
+<hr color="black">
+  
+<div class="box8">
+<div style="float:left">
+<h2>Select Your Favourite IPL Team</h2>
+<form>
+<select id="IPLTeam">
+  <option value="Select">Select</option>
+  <option value="MI">MI</option>
+  <option value="CSK">CSK</option>
+  <option value="RCB">RCB</option>
+  <option value="SRH">SRH</option>
+  <option value="KKR">KKR</option>
+  <option value="LSG">LSG</option>
+  <option value="GT">GT</option>
+  <option value="KXIP">KXIP</option>
+  <option value="RR">RR</option>
+  <option value="DC">DC</option>
+</select>
+</form></div>
+
+<div style="float:left">
+<h2>Did Your Favourite IPL Team Won Any IPL Trophy?</h2>
+
+ <label id="yes">
+ <input type="radio" name="ram" value="Y" id="yes">Yes
+ </label>
+ <label id="no">
+ <input type="radio" name="ram" value="N" id="no">No
+ </label>
+</div>
+
+<p></p>
+</div>
+
+<hr color="black">
+
+
+<div class="footer">
+<h3><i>For Official IPL WebPage Link</i></h3>
+<a id="click" href="https://www.iplt20.com/">
+<button id="click"><u><i>Click Here</i></u></button>
+</a>
+</div>
+
+<hr color="blue">
+<footer style="background-color:skyblue">
+	<p></p><center>© 2024 Raj Gour. All Rights Reserved.<align-center></align-center></center><p></p>
+</footer>
+
+<script>
+ alert("Welcome to my Web-Page");
+
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+</script>
+
+
+
+           
+ 
+
+
+</div></body></html>
