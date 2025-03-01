@@ -292,14 +292,14 @@ img {
     height: auto;
 }
 
-.records {
+#records {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
 }
 
-.records img {
+#records img {
     max-width: 100%;
     height: auto;
 }
