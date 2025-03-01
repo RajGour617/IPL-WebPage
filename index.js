@@ -1,4 +1,4 @@
-alert("Welcome to my Web-Page");
+//alert("Welcome to my Web-Page");
 
 // window.addEventListener('load', function() {
 //   document.getElementById('loader').style.display = 'none';
