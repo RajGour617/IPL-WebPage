@@ -1,0 +1,300 @@
+nav {
+  ul {
+    list-style: none;
+    padding: 0.8%;
+    margin-block: 0.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 7px;
+    backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+    background-color: rgba(68, 86, 84, 0.7);
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: lightblue;
+  }
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-content: space-between;
+  justify-items: center;
+  margin: 0.2% 0 0.2% 0;
+}
+
+.logo img {
+  border-radius: 30%;
+  height: 95px;
+  width: 95px;
+  object-fit: cover;
+  margin: 2px;
+}
+
+
+body {
+  position: relative;
+  font-family: sans-serif;
+  font-size: 1.07rem;
+  color: white;
+  overflow: auto;
+  overflow-wrap: normal;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("bg5.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(1.5px);
+  z-index: -1;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  cursor:pointer;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  color: lightpink;
+}
+
+th:nth-child(odd) {
+  background-color: rgb(255, 255, 161);
+  color: red;
+}
+
+th:nth-child(even) {
+  background-color: rgb(255, 255, 161);
+  color: red;
+}
+
+h3,
+h2 {
+  color: #0cf5e1;
+}
+
+h1 {
+  text-shadow: 2px 2px #FF0000;
+}
+
+.box3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box8 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.footer {
+  justify-items: center;
+  margin: 7px;
+}
+
+.tables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+  table-layout: auto;
+}
+
+
+/* * {
+  unicode-bidi: normal;
+} */
+
+#box0 {
+  height: 7%;
+  width: 100%;
+  border: 4px double blue;
+  border-style: dot-dash;
+  border-right-color: magenta;
+  border-bottom-color: magenta;
+  max-width: 880px;
+  position: relative;
+  margin: 20px auto;
+
+
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  transition: transform 0.5s;
+
+  img {
+    max-height: 460px;
+    max-width: 100%;
+  }
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* .loader {
+  width: 70px;
+  aspect-ratio: 1;
+  background:
+    radial-gradient(farthest-side,#ffa516 90%,#0000) center/16px 16px,
+    radial-gradient(farthest-side,green   90%,#0000) bottom/12px 12px;
+  background-repeat: no-repeat;
+  animation: l17 1s infinite linear;
+  position: relative;
+}
+.loader::before {
+  content:"";
+  position: absolute;
+  width: 8px;
+  aspect-ratio: 1;
+  inset: auto 0 16px;
+  margin: auto;
+  background: #ccc;
+  border-radius: 50%;
+  transform-origin: 50% calc(100% + 10px);
+  animation: inherit;
+  animation-duration: 0.5s;
+}
+@keyframes l17 {
+  100%{transform: rotate(1turn)}
+} */
+
+
+
+footer {
+  justify-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+.container {
+  color: red;
+  font-size: 1.18rem;
+}
+
+.copy {
+  color: white;
+  font-size: 1rem;
+}
+
+.box7 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#click {
+  color: blue;
+  margin: 0px;
+  padding: 6px;
+}
+
+#IPLTeam {
+  margin-left: 100px;
+}
+
+#records img {
+  display: inline-flex;
+  justify-content: space-between;
+  overflow: auto;
+  max-width: fit-content;
+  max-height: 100%;
+}
+
+.stretched {
+  width: 40%;
+  height: 40%;
+}
