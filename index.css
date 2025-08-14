@@ -66,7 +66,7 @@ body::before {
 
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  cursor:pointer;
+  cursor: pointer;
 }
 
 tr:nth-child(even) {
@@ -127,7 +127,7 @@ h1 {
   unicode-bidi: normal;
 } */
 
-#box0 {
+#home {
   height: 7%;
   width: 100%;
   border: 4px double blue;
@@ -292,6 +292,23 @@ footer {
   overflow: auto;
   max-width: fit-content;
   max-height: 100%;
+}
+
+#squad25 img {
+  display: inline-flex;
+  justify-content: space-between;
+  overflow: auto;
+  max-width: fit-content;
+  max-height: 100%;
+}
+
+#squad25 img:active {
+  width: 35%;
+  height: 35%
+}
+
+.winners img {
+  width: 49.5%;
 }
 
 .stretched {
